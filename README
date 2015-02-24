@@ -38,7 +38,7 @@ version.
 You may check out the sources using Git with the following command:
 
 ------
-$ git clone https://github.com:Yubico/yubico-pam.git yubico-pam
+$ git clone https://github.com/Yubico/yubico-pam.git yubico-pam
 ------
 
 This will create the directory `yubico-pam`.
@@ -57,7 +57,7 @@ $ autoreconf --install
 === Building
 
 You will need to have https://developers.yubico.com/yubico-c-client[libykclient]
-(ykclient.h, libykclient.so) andlibpam-dev (security/pam_appl.h, libpam.so)
+(ykclient.h, libykclient.so) and libpam-dev (security/pam_appl.h, libpam.so)
 installed. It in turn requires cURL, which you need to have installed, and
 https://developers.yubico.com/yubico-c[libyubikey].
 
